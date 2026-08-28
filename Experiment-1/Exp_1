@@ -1,0 +1,159 @@
+AIM:
+Demonstrate Various Data Types and Operators in Python.
+Algorithm:
+1. Start
+2. Declare two numbers a and b.
+3. Perform different operations:
+     Arithmetic operators: +, -, *, /, %, //, **
+     Assignment operators: =, +=, -=, *=, /=
+     Comparison operators: ==, !=, >, <, >=, <=
+     Logical operators: and, or, not
+     Bitwise operators: &, |, ^, ~, <<, >>
+     Identity operators: is, is not
+     Membership operators: in, not in
+4. Display the result of each operation.
+5. Stop.
+
+
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 12 08:00:23 2026
+
+@author: STUDENT-PC
+"""
+
+#Arthimetic operators
+
+a = 15
+b = 4
+
+#Addition
+print("Addition",a+b)
+
+#Subtraction 
+print("Subtraction",a-b)
+
+#Multiplication
+print("Multiplication",a*b)
+
+#Division
+print("Division",a/b)
+
+#Modulus
+print("Modulus",a%b)
+
+#Exponentiation
+print("Floor Division",a**b)
+
+#Floor Division
+print("Floor Division",a//b)
+
+
+#Relational Operators
+
+x = 13
+y = 33
+
+print(x>y)
+print(x<y)
+print(x == y)
+print(x != y)
+print(x >= y)
+print(x <= y)
+
+
+
+#Logical Operators 
+
+#AND operator
+marks_pass = True
+attendance_ok = True
+
+result1 = marks_pass and attendance_ok
+print(result1)
+
+
+#NOT operator 
+fees_paid = False
+result2 = not fees_paid
+print(result2)
+
+#OR operator 
+o = True 
+p = True
+
+result3 = o or p
+print(result3)
+
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 12 08:40:21 2026daaaaaaawsdwasdawsdwsdawadawsdwasdadwwaddawsawsdsaddawsawsdwsdawsdawsdawsdawd
+
+@author: STUDENT-PC
+"""
+
+#Bitwise Operator
+print(6 & 3)                                                            
+print(19 | 20) 
+print(9 ^ 3) 
+print(~4) 
+print(70 << 9) 
+print(12 >> 2)
+
+
+
+#Assignments Operator
+
+a = 10
+a += 10
+a -= 32
+a *= 21
+
+#identity Operator 
+
+a = 10
+b = 20 
+c = a
+
+print(a is not b)
+print(a is c)
+
+# Integer
+a = 10
+print("Integer:", a, type(a))
+
+# Float
+b = 10.5
+print("Float:", b, type(b))
+
+# Complex
+c = 3 + 4j
+print("Complex:", c, type(c))
+
+# String
+name = "Python"
+print("String:", name, type(name))
+
+# Boolean
+is_valid = True
+print("Boolean:", is_valid, type(is_valid))
+
+# List
+numbers = [1, 2, 3, 4]
+print("List:", numbers, type(numbers))
+
+# Tuple
+values = (10, 20, 30)
+print("Tuple:", values, type(values))
+
+# Set
+items = {1, 2, 3}
+print("Set:", items, type(items))
+
+# Dictionary
+student = {"name": "Rahul", "age": 20}
+print("Dictionary:", student, type(student))
+
+# None
+x = None
+print("None:", x, type(x))
