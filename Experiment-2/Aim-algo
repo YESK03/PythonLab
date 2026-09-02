@@ -1,0 +1,16 @@
+Aim
+To write a Python program to implement control flow statements (if, if-else, if-elif-else) and looping
+statements (for loop, while loop, break statement, continue statement) and to study their execution
+and output.
+Algorithm
+1 Start the program.
+2 Take a number and use nested if-elif-else to check whether it is positive, negative, or zero, and
+whether it is even or odd.
+3 Use a for loop with range() to generate and print the multiplication table of a given number.
+4 Use a while loop with a counter variable to compute the sum of the first N natural numbers.
+5 Use a for loop with the break statement to find and print the first number in a range that is divisible
+by 7, then exit the loop.
+6 Use a for loop with the continue statement to skip even numbers and print only the odd numbers
+from 1 to 10.
+7 Display the output of each step.
+8 Stop the program
