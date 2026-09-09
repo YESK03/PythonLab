@@ -1,4 +1,4 @@
-Based on the code in Exp_4.py, here's the aim and algorithm for this experiment:
+
 
 Aim
 To understand and demonstrate the various list operations and methods available in Python, including:
