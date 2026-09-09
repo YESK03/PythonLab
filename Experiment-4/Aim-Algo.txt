@@ -1,0 +1,62 @@
+Based on the code in Exp_4.py, here's the aim and algorithm for this experiment:
+
+Aim
+To understand and demonstrate the various list operations and methods available in Python, including:
+
+Creating and initializing lists
+Adding elements (append, insert, extend)
+Removing elements (remove, pop)
+Accessing and searching elements (indexing, slicing, count, index)
+Copying lists
+Reversing and iterating through lists
+Algorithm
+Code
+1. INITIALIZE
+   - Create a list of integers: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 6, 61]
+   - Display the original list
+
+2. DISPLAY LIST PROPERTIES
+   - Calculate and print the length of the list using len()
+
+3. ADD ELEMENTS
+   Step 3.1: Append Operation
+   - Append 16 to the end of the list using append()
+   - Display the updated list
+   
+   Step 3.2: Insert Operation
+   - Insert 40 at index position 5 using insert()
+   - Display the updated list
+
+4. REMOVE ELEMENTS
+   Step 4.1: Remove Operation
+   - Remove the element 10 from the list using remove()
+   - Display the updated list
+   
+   Step 4.2: Pop Operation
+   - Remove and display the element at index 5 using pop()
+   - Display the updated list
+
+5. SEARCH AND COUNT OPERATIONS
+   Step 5.1: Count Operation
+   - Count occurrences of element 6 in the list
+   - Display the count
+   
+   Step 5.2: Index Operation
+   - Find and display the index position of element 15
+
+6. ACCESS OPERATIONS
+   Step 6.1: Slicing
+   - Extract and display elements from index 0 to 4 using slice [0:5]
+   
+   Step 6.2: Negative Indexing
+   - Access and display the last element using [-1]
+
+7. COPY OPERATION
+   - Create a copy of the current list using copy()
+   - Display the copied list
+
+8. EXTEND OPERATION
+   - Extend the original list by adding all elements from the copied list
+   - Display the final extended list
+
+9. END
