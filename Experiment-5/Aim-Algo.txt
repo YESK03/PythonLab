@@ -1,0 +1,39 @@
+EXPERIMENT 5(a)
+
+AIM:
+To understand and demonstrate tuple operations in Python, including indexing, searching, counting, built-in functions, membership testing, and conversion between tuples and lists.
+
+ALGORITHM:
+1. Create a tuple named my_tuple with the values 20, 40, 60, 80, and 100.
+2. Display the tuple.
+3. Access and display the first element using index 0.
+4. Access and display the last element using negative indexing.
+5. Find and display the length of the tuple.
+6. Count and display the occurrence of 20 in the tuple.
+7. Find and display the index of 60.
+8. Find and display the maximum value, minimum value, and sum of the tuple elements.
+9. Check whether 40 is present in the tuple using the membership operator.
+10. Convert the tuple into a list and display the list.
+11. Convert the list back into a tuple and display the new tuple.
+12. Stop.
+
+
+EXPERIMENT 5(b)
+
+AIM:
+To calculate an employee's net salary using salary components and classify the employee according to the net salary using conditional statements in Python.
+
+ALGORITHM:
+1. Define a function named EmpCalc().
+2. Accept the employee's name, age, and salary from the user.
+3. Calculate HRA as 35 percent of the salary.
+4. Calculate PF as 25 percent of the salary.
+5. Calculate the net salary using the formula:
+   Net Salary = Salary + HRA + PF
+6. If the net salary is between 30,000 and 100,000, display "Senior Manager".
+7. Otherwise, if the net salary is between 20,000 and 29,999, display "Manager".
+8. Otherwise, display "Front Level Job".
+9. Return the employee's name, age, and net salary.
+10. Call the function and store the returned values.
+11. Display the employee's name, age, and net salary.
+12. Stop.
