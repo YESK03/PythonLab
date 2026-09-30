@@ -1,0 +1,66 @@
+EXPERIMENT 6: DICTIONARIES IN PYTHON
+
+AIM
+---
+To study and implement Python dictionaries by creating dictionaries, accessing their elements, adding, updating and deleting key-value pairs, using built-in dictionary methods, and finding the frequency of characters in a string.
+
+ALGORITHM
+---------
+
+PROGRAM 1: BASIC DICTIONARY OPERATIONS
+File: basic_dictionary.py
+
+1. Start.
+2. Create an employee dictionary containing the keys Name, Age, Post, and Salary.
+3. Display the complete dictionary.
+4. Access and display the values of the Name, Age, Post, and Salary keys.
+5. Stop.
+
+
+PROGRAM 2: ADDING, UPDATING, AND DELETING DICTIONARY ELEMENTS
+File: imple_dictionary.py
+
+1. Start.
+2. Create an employee dictionary with initial key-value pairs.
+3. Add a new ID key and assign a value to it.
+4. Display the dictionary after adding the new element.
+5. Update the value of the Age key.
+6. Display the dictionary after updating the element.
+7. Delete the Salary key using the del statement.
+8. Display the dictionary after deleting the element.
+9. Stop.
+
+
+PROGRAM 3: USING DICTIONARY METHODS
+File: Method_dictionary.py
+
+1. Start.
+2. Create an employee dictionary with employee details.
+3. Use the keys() method to display all dictionary keys.
+4. Use the values() method to display all dictionary values.
+5. Use the items() method to display all key-value pairs.
+6. Use the get() method to retrieve the employee name.
+7. Use the get() method with a default message to retrieve a key that may not exist.
+8. Use the update() method to modify the Age value and add a Marks key.
+9. Display the updated dictionary.
+10. Stop.
+
+
+PROGRAM 4: COUNTING CHARACTER FREQUENCY
+File: count_dictionary.py
+
+1. Start.
+2. Accept a string from the user.
+3. Create an empty dictionary named frequency.
+4. Read each character of the input string one by one.
+5. Check whether the character already exists as a key in frequency.
+6. If the character exists, increase its count by one.
+7. Otherwise, add the character to frequency with a count of one.
+8. Traverse the frequency dictionary using its items() method.
+9. Display each character and its frequency.
+10. Stop.
+
+
+RESULT
+------
+The four Python programs successfully demonstrate the creation, access, modification, deletion, use of built-in methods, and character-frequency counting operations of dictionaries.
