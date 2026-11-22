@@ -2,23 +2,20 @@
 
 ## Aim
 
-To perform data cleaning and analysis on a student dataset using NumPy and Pandas, and to visualize the results using Matplotlib.
+To clean and analyze student data using Pandas and NumPy, handle missing marks, classify students as Pass or Fail, and visualize the relationship and distribution of study hours and marks using Matplotlib.
 
 ## Algorithm
 
-1. Import the required libraries: `pandas`, `numpy`, and `matplotlib.pyplot`.
-2. Read the student dataset and create a DataFrame.
-3. Display the original dataset.
-4. Identify and handle missing values:
-   - Check for missing values in the DataFrame.
-   - Replace missing values in the `Marks` column with the column mean.
-5. Create a new column named `Grade`:
-   - Assign `Pass` when marks are greater than or equal to 75.
-   - Assign `Fail` otherwise.
-6. Display the cleaned and processed DataFrame.
-7. Generate a bar chart of study hours against marks.
-8. Generate a line chart showing the relationship between study hours and marks.
-9. Generate a pie chart representing study hours for each student.
-10. Generate a histogram to show the distribution of marks.
-11. Generate a scatter plot to analyze the relationship between study hours and marks.
-12. Display all charts using `plt.show()`.
+1. Import Pandas, NumPy, and `matplotlib.pyplot`.
+2. Load the student dataset into a Pandas DataFrame (or create a DataFrame containing student names, marks, and study hours).
+3. Display the original student data.
+4. Check the `Marks` column for missing values.
+5. Replace missing marks with the mean of the available marks.
+6. Use NumPy to add a `Grade` column: assign `Pass` when marks are at least 75; otherwise assign `Fail`.
+7. Display the cleaned DataFrame, including the calculated grades.
+8. Create a bar chart comparing each student's study hours and marks.
+9. Create a line chart showing the relationship between study hours and marks.
+10. Create a pie chart showing each student's share of the study hours.
+11. Create a histogram showing the distribution of marks.
+12. Create a scatter plot of study hours against marks.
+13. Add suitable labels and titles to the charts, then display each chart using `plt.show()`.
